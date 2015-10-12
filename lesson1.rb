@@ -21,6 +21,6 @@ class Lesson1
   def name
     name = []
     3.times { name << gets }
-    "Hello #{name[0]} Super Man!"
+    "Hello #{name.join(' ')}!"
   end
 end
